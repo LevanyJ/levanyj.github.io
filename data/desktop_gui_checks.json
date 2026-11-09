@@ -1,0 +1,79 @@
+{
+  "environment": "Linux Xvfb Tk 8.6",
+  "scope": "Calculator UI actual execution and NotePad save-on-close only; not Windows EXE smoke test",
+  "checks": [
+    {
+      "tool": "calculator",
+      "steps": [
+        "1",
+        "2",
+        "+",
+        "3",
+        "0",
+        "="
+      ],
+      "expected": "42",
+      "actual": "42",
+      "passed": true
+    },
+    {
+      "tool": "calculator",
+      "steps": [
+        "5",
+        "x²",
+        "="
+      ],
+      "expected": "25",
+      "actual": "25",
+      "passed": true
+    },
+    {
+      "tool": "calculator",
+      "steps": [
+        "√",
+        "8",
+        "1",
+        "="
+      ],
+      "expected": "9",
+      "actual": "9.0",
+      "passed": false
+    },
+    {
+      "tool": "calculator",
+      "steps": [
+        "2",
+        "0",
+        "%"
+      ],
+      "expected": "0.2",
+      "actual": "0.2",
+      "passed": true
+    },
+    {
+      "tool": "calculator",
+      "steps": [
+        "9",
+        "/",
+        "0",
+        "="
+      ],
+      "expected": "输入错误",
+      "actual": "输入错误",
+      "passed": true
+    },
+    {
+      "tool": "note",
+      "operation": "save-on-close",
+      "expected": "Day24 verified desktop note",
+      "actual": "Day24 verified desktop note",
+      "passed": true
+    }
+  ],
+  "passes": 5,
+  "total": 6,
+  "source_files": [
+    "高颜值桌面计算器(1).py",
+    "便签文件(1).py"
+  ]
+}
