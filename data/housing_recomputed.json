@@ -1,0 +1,20 @@
+{
+  "count": 2040,
+  "median_price_wan": 116.25,
+  "median_area_sqm": 93.34,
+  "median_unit_yuan_sqm": 13019.5,
+  "floor_distribution": {
+    "中楼层": 752,
+    "低楼层": 517,
+    "高楼层": 771
+  },
+  "rooms_distribution": {
+    "1": 89,
+    "2": 571,
+    "3": 1049,
+    "4": 322,
+    "5": 9
+  },
+  "anonymous_csv_sha256": "1ff9b21fb5e210d900755c0d9855efb1db75d2aeb890444eda7a096c8813317f",
+  "note": "Historical Chengdu classroom listing snapshot; not current prices or transactions."
+}
