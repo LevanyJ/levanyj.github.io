@@ -1,0 +1,40 @@
+{
+  "test_environment": "Python Tkinter on Linux Xvfb",
+  "subject": "Day24 verified calculator revision",
+  "source": "scripts/verified_calculator.py",
+  "tests": [
+    {
+      "operation": "12+30=",
+      "expected": "42",
+      "actual": "42",
+      "passed": true
+    },
+    {
+      "operation": "5x²=",
+      "expected": "25",
+      "actual": "25",
+      "passed": true
+    },
+    {
+      "operation": "√81=",
+      "expected": "9",
+      "actual": "9",
+      "passed": true
+    },
+    {
+      "operation": "20%",
+      "expected": "0.2",
+      "actual": "0.2",
+      "passed": true
+    },
+    {
+      "operation": "9/0=",
+      "expected": "输入错误",
+      "actual": "输入错误",
+      "passed": true
+    }
+  ],
+  "passed": 5,
+  "total": 5,
+  "note": "Real Tk window screenshot from the executed revised code; Windows packaged EXE is not validated."
+}
