@@ -1,0 +1,192 @@
+{
+  "sources": {
+    "exams": {
+      "name": "day20数据可视化进阶：考研数据图表绘制/02课程代码/各院校历年数据采集.csv",
+      "sha256": "b43cee17046cd04b49affd32cd0cfff11b20645876d09184ed7560049cb4e0d7",
+      "source_rows": 5580,
+      "columns": 10
+    },
+    "jobs": {
+      "name": "day21未来职业规划行业薪资分析/02课程代码/兼职岗位数据.csv",
+      "sha256": "9ea42a6bed29fcaddd40916a18e6e41feb4f4705de8ecb8c596429d86d348ee2",
+      "source_rows": 30000,
+      "columns": 28
+    },
+    "social": {
+      "name": "day14浏览器自动化社交平台数据精准抓取(1)/02课堂代码/小红书数据/小红书帖子.csv",
+      "sha256": "db5bbe7f0498ec5bf37b72c771867cb139e19625fc3b0e4f1aa80e5025f290b7",
+      "source_rows": 927,
+      "columns": 11
+    }
+  },
+  "exams_summary": {
+    "rows": 5580,
+    "distinct_rows": 5443,
+    "duplicate_rows": 137,
+    "schools": 20,
+    "majors": 515,
+    "years": [
+      "2023",
+      "2024",
+      "2025",
+      "2026"
+    ],
+    "year_counts": {
+      "2023": 1268,
+      "2024": 1535,
+      "2025": 1318,
+      "2026": 1459
+    },
+    "mean_total": 315.4,
+    "median_total": 324.0,
+    "note": "课堂样本，未经官方高校网站核验；各校专业、口径不同，不可据此直接判断招生难度。"
+  },
+  "jobs_summary": {
+    "rows": 30000,
+    "cities": 20,
+    "synthetic_rows": 30000,
+    "data_nature": [
+      "模拟演示数据"
+    ],
+    "note": "100% 为原始课件标注的模拟演示数据，不能代表实际招聘报价。"
+  },
+  "social_summary": {
+    "rows": 927,
+    "category_counts": {
+      "穿搭": 927
+    },
+    "metrics": {
+      "点赞": {
+        "valid": 927,
+        "total": 4684146,
+        "median": 836,
+        "mean": 5053.0,
+        "zero": 41,
+        "max": 261109
+      },
+      "收藏": {
+        "valid": 927,
+        "total": 1182550,
+        "median": 317,
+        "mean": 1275.7,
+        "zero": 72,
+        "max": 36664
+      },
+      "评论": {
+        "valid": 927,
+        "total": 173631,
+        "median": 28,
+        "mean": 187.3,
+        "zero": 137,
+        "max": 15566
+      },
+      "分享": {
+        "valid": 927,
+        "total": 269768,
+        "median": 69,
+        "mean": 291.0,
+        "zero": 121,
+        "max": 7379
+      }
+    },
+    "note": "课堂采集快照；统计仅供学习，不公开昵称、帖文、链接或访问 token。"
+  },
+  "skills": [
+    {
+      "skill": "AIGC",
+      "n": 5998,
+      "mean_hourly": 130.3,
+      "median_hourly": 128.3,
+      "mean_monthly": 9310.1,
+      "remote_pct": 70.1
+    },
+    {
+      "skill": "Python",
+      "n": 4986,
+      "mean_hourly": 95.8,
+      "median_hourly": 94.0,
+      "mean_monthly": 6903.9,
+      "remote_pct": 57.8
+    },
+    {
+      "skill": "Python+AIGC",
+      "n": 5032,
+      "mean_hourly": 195.4,
+      "median_hourly": 192.2,
+      "mean_monthly": 14081.1,
+      "remote_pct": 77.1
+    },
+    {
+      "skill": "基础服务",
+      "n": 9253,
+      "mean_hourly": 29.4,
+      "median_hourly": 28.9,
+      "mean_monthly": 2809.3,
+      "remote_pct": 0.0
+    },
+    {
+      "skill": "普通数字岗位",
+      "n": 4731,
+      "mean_hourly": 42.0,
+      "median_hourly": 41.2,
+      "mean_monthly": 3446.2,
+      "remote_pct": 34.9
+    }
+  ],
+  "years": [
+    {
+      "year": "2023",
+      "school": "中国人民大学",
+      "n": 34,
+      "mean": 337.7,
+      "median": 355.0,
+      "min": 150.0,
+      "max": 395.0
+    },
+    {
+      "year": "2023",
+      "school": "中国农业大学",
+      "n": 25,
+      "mean": 305.2,
+      "median": 310.0,
+      "min": 175.0,
+      "max": 365.0
+    },
+    {
+      "year": "2023",
+      "school": "中国地质大学（北京）",
+      "n": 83,
+      "mean": 298.9,
+      "median": 289.0,
+      "min": 167.0,
+      "max": 370.0
+    },
+    {
+      "year": "2023",
+      "school": "中国政法大学",
+      "n": 85,
+      "mean": 351.6,
+      "median": 363.0,
+      "min": 167.0,
+      "max": 385.0
+    },
+    {
+      "year": "2023",
+      "school": "中国石油大学（北京）",
+      "n": 84,
+      "mean": 280.4,
+      "median": 273.0,
+      "min": 167.0,
+      "max": 377.0
+    },
+    {
+      "year": "2023",
+      "school": "中央财经大学",
+      "n": 47,
+      "mean": 341.7,
+      "median": 360.0,
+      "min": 167.0,
+      "max": 397.0
+    }
+  ]
+}
