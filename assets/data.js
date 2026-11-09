@@ -13,8 +13,8 @@ window.PORTFOLIO_DATA = {
       "day": "22",
       "category": "采集与分析",
       "english": "HOUSING DATA",
-      "title": "贝壳二手房 · 数据采集案例",
-      "intro": "围绕房源列表执行页面采集、多页遍历、字段整理与 Excel 输出。",
+      "title": "成都房源 · 2,040条实证分析",
+      "intro": "读取课件 Excel 的 2,040 条成都历史挂牌记录，执行数值解析、数据核验与动态筛选统计。",
       "context": "将零散的二手房页面信息整理成便于查询和比较的数据表，是从采集到交付的一次完整课堂练习。",
       "process": [
         "分析页面结构及可读取的字段",
@@ -22,15 +22,15 @@ window.PORTFOLIO_DATA = {
         "将采集结果整理为结构化记录",
         "检查原始输出与展示层的衔接"
       ],
-      "output": "原爬虫已提供源码与课件输出样本；尚未对课件 Excel 完成可复现的数据核验，此案例暂为待核验档案，不应与已运行成果混淆。",
+      "output": "以 2,040 条有效房源数值、可交互统计图、去识别 CSV 与标准库 Python 复核脚本为实证输出。原始课程爬虫没有在这次重新联网运行。",
       "skills": [
         "Python",
         "数据采集",
         "Excel",
         "数据整理"
       ],
-      "status": "待运行核验",
-      "demo": "",
+      "status": "数据处理已执行",
+      "demo": "housing.html",
       "links": [
         [
           "查看多页采集代码",
@@ -41,7 +41,7 @@ window.PORTFOLIO_DATA = {
           "examples/day22/demo1贝壳二手房数据获取.py"
         ]
       ],
-      "note": "来源：Day 22 教学代码。未进行联网抓取验证。"
+      "note": "来源：Day 22 课堂附件完整版贝壳二手房.xlsx（成都，历史挂牌快照）。Excel 数据已读取并分析；爬虫未重新联网运行。"
     },
     {
       "id": "freelance",
@@ -162,15 +162,15 @@ window.PORTFOLIO_DATA = {
         "使用工具入口启动独立脚本",
         "保留不同版本以观察功能迭代"
       ],
-      "output": "纳入 10 个原始 Python 课堂练习文件；不直接公开或运行 Windows EXE。",
+      "output": "原计算器在 Linux Xvfb 真实运行发现裁切问题；AI 协助修正版已运行并通过 5/5 交互测试；原始便签关闭保存也已实测。Windows EXE 未验证。",
       "skills": [
         "Tkinter",
         "Python",
         "桌面交互",
         "脚本集成"
       ],
-      "status": "Windows运行待复核",
-      "demo": "",
+      "status": "部分 GUI 已实际运行",
+      "demo": "desktop.html",
       "links": [
         [
           "查看工具中心代码",
@@ -181,7 +181,7 @@ window.PORTFOLIO_DATA = {
           "examples/day24/简易截图工具(1).py"
         ]
       ],
-      "note": "来源：本次会话上传的 Python 课程练习材料；尚未完成 Windows 全功能实测。"
+      "note": "来源：Day 24 课堂 Python 练习。已做部分 Linux Tk GUI 和便签文件输出验证；完整 Windows 六合一仍待验证。"
     },
     {
       "id": "automation",
