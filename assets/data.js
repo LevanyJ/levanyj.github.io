@@ -22,14 +22,14 @@ window.PORTFOLIO_DATA = {
         "将采集结果整理为结构化记录",
         "检查原始输出与展示层的衔接"
       ],
-      "output": "课堂源码与表格文件已核对；网页只展示流程说明，不公布原始房源和第三方图片。",
+      "output": "原爬虫已提供源码与课件输出样本；尚未对课件 Excel 完成可复现的数据核验，此案例暂为待核验档案，不应与已运行成果混淆。",
       "skills": [
         "Python",
         "数据采集",
         "Excel",
         "数据整理"
       ],
-      "status": "课程实践",
+      "status": "待运行核验",
       "demo": "",
       "links": [
         [
@@ -64,7 +64,7 @@ window.PORTFOLIO_DATA = {
         "CSV",
         "业务分析"
       ],
-      "status": "课程实践",
+      "status": "原始采集待复现",
       "demo": "",
       "links": [
         [
@@ -92,7 +92,7 @@ window.PORTFOLIO_DATA = {
         "提取数值列并展示简易分布",
         "不将文件上传到任何服务端"
       ],
-      "output": "本次作品集制作的交互网页可以直接打开测试；教学的薪资演示数据不被包装成真实薪资统计。",
+      "output": "已对课堂配发的 30,000 条模拟岗位数据实际计算分类中位时薪、均值及城市/月份指标；模拟性质已明确展示。另保留通用 CSV 上传实验室。",
       "skills": [
         "JavaScript",
         "CSV",
@@ -100,7 +100,7 @@ window.PORTFOLIO_DATA = {
         "交互设计"
       ],
       "status": "作品集整合演示",
-      "demo": "demos/csv-lab.html",
+      "demo": "results.html#jobs",
       "links": [
         [
           "打开 CSV 实验室",
@@ -127,7 +127,7 @@ window.PORTFOLIO_DATA = {
         "编排图表并导出 HTML",
         "审查图表与数据口径"
       ],
-      "output": "已纳入对应 Python 处理与绘图示例；原始院校数据和示例图表不代表当前招生情况。",
+      "output": "对课程 CSV 实际执行统计：5,580 行输入、20校、2023–2026 四个年份，识别到 137 行完全重复记录；提供可筛选学校/年份的图表和原始源文件校验值。",
       "skills": [
         "Pandas",
         "Pyecharts",
@@ -135,7 +135,7 @@ window.PORTFOLIO_DATA = {
         "数据表达"
       ],
       "status": "课程实践",
-      "demo": "",
+      "demo": "results.html#exams",
       "links": [
         [
           "数据处理示例",
@@ -146,7 +146,7 @@ window.PORTFOLIO_DATA = {
           "examples/day20/demo03可视化绘图.py"
         ]
       ],
-      "note": "来源：Day 19–20 课堂资料。"
+      "note": "Day 20 课堂 CSV，未经外部官方核验；Day 19 部分错标文件已排除。"
     },
     {
       "id": "desktop",
@@ -169,7 +169,7 @@ window.PORTFOLIO_DATA = {
         "桌面交互",
         "脚本集成"
       ],
-      "status": "课程实践",
+      "status": "Windows运行待复核",
       "demo": "",
       "links": [
         [
@@ -204,7 +204,7 @@ window.PORTFOLIO_DATA = {
         "线程",
         "任务调度"
       ],
-      "status": "课程学习",
+      "status": "联网执行待复核",
       "demo": "",
       "links": [
         [
